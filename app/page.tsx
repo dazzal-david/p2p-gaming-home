@@ -298,14 +298,6 @@ export default function GamingWaitlist() {
                 <h4 className="text-2xl font-bold mb-4 text-cyan-400">
                   {activeTab === 'player' ? 'Browse & Connect' : 'Install & Share'}
                 </h4>
-                <ul className="space-y-3">
-                  {benefits[activeTab].map((benefit, i) => (
-                    <li key={i} className="flex items-start gap-3 text-gray-300">
-                      <CheckCircle className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                      <span>{benefit}</span>
-                    </li>
-                  ))}
-                </ul>
               </div>
 
               <div className="p-8 rounded-2xl bg-white/5 backdrop-blur-sm border border-white/10">
